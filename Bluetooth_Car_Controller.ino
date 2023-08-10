@@ -1,5 +1,3 @@
-char Command;
-
 void setup() {
   pinMode(2,OUTPUT);   //left motors  forward
   pinMode(3,OUTPUT);   //left motors reverse
@@ -11,7 +9,7 @@ void setup() {
 void loop() {
 if(Serial.available())
 {
-  switch(Command = Serial.read())
+  switch(Serial.read())
   {
     case 'F': 
       digitalWrite(2,HIGH);

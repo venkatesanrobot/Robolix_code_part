@@ -17,8 +17,8 @@ void setup() {
   So4.attach(4);
   Serial.begin(9600);
   Serial.println("Claw Adjustment -> C & S");
-  Serial.println("Left Adjustment-> F & B");
-  Serial.println("Right Adjustment -> X & T");
+  Serial.println("Right Adjustment-> F & B");
+  Serial.println("Left Adjustment -> X & T");
   Serial.println("Bottom Adjustment-> L & R");
   So1.write(bottom);
   So2.write(right);

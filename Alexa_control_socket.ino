@@ -5,7 +5,7 @@
 #endif
 #include <Espalexa.h>
 // define the GPIO connected with Relays
-#define RELAY 2  //D6
+#define RELAY 15  //D15
 
 
 // prototypes
@@ -15,8 +15,8 @@ boolean connectWifi();
 void firstLightChanged(uint8_t brightness);
 
 // WiFi Credentials
-const char* ssid = "FTTH-E109";
-const char* password = "12345678";
+const char* ssid = "ROBOLIX";
+const char* password = "asdfghjkl";
 
 // device names
 String Device_1_Name = "SWITCH";

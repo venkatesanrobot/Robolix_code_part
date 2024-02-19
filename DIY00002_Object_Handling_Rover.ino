@@ -1,6 +1,6 @@
 #include <ESPAsyncWebSrv.h>
 
-const char* ssid = "ESP8266";    // Change this to your WiFi network's SSID
+const char* ssid = "ROBOLIX";    // Change this to your WiFi network's SSID
 const char* password = "asdfghjkl"; // Change this to your WiFi network's password
 
 const int IP1 = 25; // Change to your motor control pins

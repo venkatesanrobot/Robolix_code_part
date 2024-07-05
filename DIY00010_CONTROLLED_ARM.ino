@@ -13,6 +13,9 @@ void setup() {
   So2.attach(5);
   So3.attach(6);
   So4.attach(7);
+  Serial.println("Claw Adjustment -> X & Y");
+  Serial.println("Forward and Backward Adjustment-> F & B");
+  Serial.println("Left and Right Adjustment-> L & R");
   Normal();
   Serial.begin(9600);
 }
